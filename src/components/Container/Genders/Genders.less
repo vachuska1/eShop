@@ -1,0 +1,38 @@
+.Genders {
+  display: grid;
+  width: 100%;
+  color: #f3efeb;
+  grid-template:
+    "mens womens" 650px/
+    1fr 1fr;
+  min-height: 600px;
+  max-height: 900px;
+  &__Mens {
+    grid-area: mens;
+    background: url(../../../images/mens.jpg) no-repeat center/ 100%;
+    width: 100%;
+    height: auto;
+    &--name {
+      cursor: pointer;
+      margin: 50% auto;
+      font-size: 60px;
+      font-weight: 700;
+      letter-spacing: normal;
+      text-align: center;
+    }
+  }
+  &__Womens {
+    grid-area: womens;
+    background: url(../../../images/womens.jpg) no-repeat center/ 100%;
+    width: 100%;
+    height: auto;
+    &--name {
+      cursor: pointer;
+      margin: 50% auto;
+      font-size: 60px;
+      font-weight: 700;
+      letter-spacing: normal;
+      text-align: center;
+    }
+  }
+}

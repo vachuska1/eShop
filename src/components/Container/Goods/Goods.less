@@ -1,0 +1,38 @@
+.Goods {
+  display: grid;
+  width: 100%;
+  color: #f3efeb;
+  grid-template:
+    "goods journal" 650px/
+    1fr 1fr;
+  min-height: 600px;
+  max-height: 900px;
+  &__Good {
+    grid-area: goods;
+    background: url(../../../images/goods.jpg) no-repeat center/ 100%;
+    width: 100%;
+    height: auto;
+    &--name {
+      cursor: pointer;
+      margin: 50% auto;
+      font-size: 60px;
+      font-weight: 700;
+      letter-spacing: normal;
+      text-align: center;
+    }
+  }
+  &__Journal {
+    grid-area: journal;
+    background: url(../../../images/journal.jpg) no-repeat center/ 100%;
+    width: 100%;
+    height: auto;
+    &--name {
+      cursor: pointer;
+      margin: 50% auto;
+      font-size: 60px;
+      font-weight: 700;
+      letter-spacing: normal;
+      text-align: center;
+    }
+  }
+}

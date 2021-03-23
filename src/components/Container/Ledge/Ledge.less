@@ -1,0 +1,208 @@
+.Ledge {
+  font-family: moret, serif;
+  display: grid;
+  grid-template:
+    "left right" auto/
+    1fr 1fr;
+  &__left {
+    color: rgb(204, 196, 196);
+    background-color: rgb(41, 40, 40);
+    grid-area: left;
+    text-align: left;
+    padding: 10% 0 0 20%;
+    &--info {
+      font-size: 26px;
+      font-weight: 600;
+    }
+    &--sign {
+      display: flex;
+      margin-top: 20px;
+      .icon {
+        background: url(../../../images/menu-login.svg) no-repeat center/20px;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+      }
+      .name {
+        margin: auto 0 auto 20px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    }
+    &--help {
+      display: flex;
+      margin-top: 20px;
+      .icon {
+        background: url(../../../images/menu-help.svg) no-repeat center/20px;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+      }
+      .name {
+        margin: auto 0 auto 20px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    }
+    &--live {
+      display: flex;
+      margin-top: 20px;
+      .icon {
+        background: url(../../../images/menu-chat.svg) no-repeat center/20px;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+      }
+      .name {
+        margin: auto 0 auto 20px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    }
+    &--carrer {
+      display: flex;
+      margin-top: 20px;
+      .icon {
+        background: url(../../../images/menu-star.svg) no-repeat center/20px;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+      }
+      .name {
+        margin: auto 0 auto 20px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    }
+    &--contact {
+      display: flex;
+      margin-top: 20px;
+      .icon {
+        background: url(../../../images/menu-message.svg) no-repeat center/20px;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+      }
+      .name {
+        margin: auto 0 auto 20px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    }
+    &--icons {
+      display: flex;
+      margin-top: 40px;
+      .instagram {
+        background: url(../../../images/instagram.svg) no-repeat center/40px;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+      }
+      .pinterest {
+        background: url(../../../images/pinterest.svg) no-repeat center/40px;
+        width: 40px;
+        height: 40px;
+        margin-left: 20px;
+        cursor: pointer;
+      }
+      .youtube {
+        background: url(../../../images/youtube.svg) no-repeat center/40px;
+        width: 40px;
+        height: 40px;
+        margin-left: 20px;
+        cursor: pointer;
+      }
+      .facebook {
+        background: url(../../../images/facebook.svg) no-repeat center/40px;
+        width: 40px;
+        height: 40px;
+        margin-left: 20px;
+        cursor: pointer;
+      }
+    }
+    &--button {
+      cursor: pointer;
+      margin-top: 20px;
+      border: 1px solid rgb(220, 218, 218);
+      width: 180px;
+      padding: 15px;
+      &:hover {
+        transition: 300ms ease-in-out;
+        color: rgb(82, 80, 80);
+        background: rgb(216, 213, 213);
+      }
+      .text {
+        font-size: 16px;
+      }
+    }
+    &--copyright {
+      color: grey;
+      margin: 30px 0 70px 0;
+      line-height: 1.7;
+    }
+  }
+  &__right {
+    background-color: rgb(87, 83, 83);
+    color: rgb(238, 235, 235);
+    grid-area: right;
+    text-align: left;
+    padding: 10% 0 0 20%;
+    &--info {
+      font-size: 26px;
+      font-weight: 600;
+    }
+    &--sign {
+      margin: 20px 0;
+      font-size: 16px;
+    }
+    &--mens {
+      display: flex;
+      .mensinput {
+        background-color: visible;
+        border: none;
+        outline: none;
+        color: none;
+        color: white;
+        border: 1px solid rgb(230, 227, 227);
+        width: 40px;
+        height: 40px;
+      }
+      .mensname {
+        margin: auto 0 auto 15px;
+        font-size: 16px;
+      }
+    }
+    &--womens {
+      display: flex;
+      .womensinput {
+        border: none;
+        outline: none;
+        border: 1px solid rgb(230, 227, 227);
+        width: 40px;
+        height: 40px;
+      }
+      .womensname {
+        margin: auto 0 auto 15px;
+        font-size: 16px;
+      }
+    }
+    &--email {
+      margin-top: 20px;
+      border: 1px solid rgb(235, 233, 233);
+      width: 300px;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      .name {
+        font-size: 16px;
+        margin: auto 0;
+      }
+      .icon {
+        background: url(../../../images/arrow.svg) no-repeat center/ 30px;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+      }
+    }
+  }
+}

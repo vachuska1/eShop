@@ -1,0 +1,42 @@
+.Pattern {
+  position: relative;
+  background: url(../../../images/imagefirst.jpg) no-repeat center / 100%;
+  width: 100%;
+  min-height: 420px;
+  max-height: 1000px;
+  &__names {
+    position: absolute;
+    top: 36%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: #f3efeb;
+    &--name {
+      font-size: 60px;
+      font-weight: 700;
+    }
+    &--about {
+      margin-top: 20px;
+      font-size: 16px;
+    }
+    &--buttons {
+      margin-top: 25px;
+      color: black;
+      display: flex;
+      justify-content: center;
+      .button1,
+      .button2,
+      .button3 {
+        background-color: #f3efeb;
+        text-align: center;
+        padding: 18px;
+        width: 150px;
+        cursor: pointer;
+      }
+      .button1,
+      .button2 {
+        margin-right: 10px;
+      }
+    }
+  }
+}
