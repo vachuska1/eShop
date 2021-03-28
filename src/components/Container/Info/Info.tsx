@@ -6,6 +6,7 @@ export const Info: React.FC = () => {
     <div className="Info">
       <div className="Info__content">
         <div className="Info__content--left">
+          // tady je dost divna struktura, mel bys drzet ten BEM - najednou tu mas leftlogo, leftname a dalsi / trochu zvlastni na precteni
           <div className="leftlogo"></div>
           <div className="leftname">15% Off First Order</div>
           <div className="leftdescription">
