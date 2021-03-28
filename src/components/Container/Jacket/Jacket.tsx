@@ -8,6 +8,7 @@ export const Jacket: React.FC = () => {
       <div className="Jacket__description">
         <div className="Jacket__description--heading">
           Something to
+          // ty br tagy se uz moc dneska nepouzivaji, ale nic proti nicemu
           <br /> Write Home
           <br /> About
         </div>
